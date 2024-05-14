@@ -11,6 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
 </head>
 
 <body class="bg-body-tertiary">
@@ -29,22 +31,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item ps-3">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
                     </li>
                     <li class="nav-item ps-3">
-                        <a class="nav-link" href="#">Products</a>
-                    </li>
-                    <li class="nav-item ps-3">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item ps-3">
                         <a class="nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item ps-3">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item ps-3">
-                        <button class="btn btn-outline-success" type="submit">Contact</button>
+                        <a href="#contact" class="btn btn-outline-success" type="submit">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -61,14 +60,14 @@
                 <p class="lead mb-4 text-light">Votre partenaire en conseil et formation en IA pour booster votre
                     activité.</p>
                 <p class="lead">
-                    <a href="#" class="btn btn-lg btn-light fw-bold border-dark">Pour commencer</a>
+                    <a href="#debut" class="btn btn-lg btn-light fw-bold border-dark">Pour commencer</a>
                 </p>
             </main>
         </div>
     </div>
 
 
-    <div class="container px-4 py-5" id="featured-3">
+    <div id="debut" class="container px-4 py-5" id="featured-3">
         <h2 class="pb-2 text-center">Pourquoi nous sortons du lot</h2>
         <hr class="featurette-divider">
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
@@ -82,9 +81,11 @@
                     </svg>
                 </div>
 
-                <h3 class="fs-2 text-body-emphasis">en IA</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                    and probably just keep going until we run out of words.</p>
+                <h3 class="fs-2 text-body-emphasis">Expertise en IA</h3>
+                <p>Notre bureau dispose d'une expertise solide en intelligence artificielle, ce qui nous permet de
+                    comprendre les avantages de l'IA et d'identifier les applications potentielles pour votre activité.
+                    Nous pouvons vous aider à développer et mettre en œuvre des solutions d'IA adaptées à vos besoins
+                    spécifiques.</p>
             </div>
             <div class="feature col text-center">
                 <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient bg-success fs-2 mb-3"
@@ -96,9 +97,10 @@
                             d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                     </svg>
                 </div>
-                <h3 class="fs-2 text-body-emphasis">Formation spécialisée</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                    and probably just keep going until we run out of words.</p>
+                <h3 class="fs-2 text-body-emphasis">Formation spécialisée </h3>
+                <p>Nous offrons des programmes de formation spécialisée aux technologies d'IA pour vos employés. Grâce à
+                    notre expertise, nous pouvons les former aux compétences nécessaires pour exploiter pleinement les
+                    avantages de l'IA dans votre entreprise.</p>
             </div>
             <div class="feature col text-center">
                 <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient bg-success fs-2 mb-3"
@@ -110,168 +112,272 @@
                     </svg>
                 </div>
                 <h3 class="fs-2 text-body-emphasis">Conseil personnalisé</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                    and probably just keep going until we run out of words.</p>
+                <p>Nous proposons un conseil personnalisé pour vous guider dans l'adoption de l'IA dans votre
+                    entreprise. Nous travaillerons avec vous pour comprendre vos besoins spécifiques et développer des
+                    solutions sur mesure qui répondent à vos objectifs commerciaux.</p>
             </div>
         </div>
     </div>
 
-    <div class="p-5 text-center" style="background-color: #c6e1d5;">
-        <div class="container py-5">
-            <h1 class="text-body-emphasis">Exemples de clients satisfaits</h1>
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
-                <div class="feature col">
-                    Exemple 1
-                </div>
-                <div class="feature col">
-                    Exemple 2
-                </div>
-                <div class="feature col">
-                    Exemple 3
-                </div>
-                <div class="feature col">
-                    Exemple 4
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="p-5">
+    <div id="services" class="p-5" style="background-color: #c6e1d5;">
         <div class="container">
             <div>
                 <h1 class=" text-center text-body-emphasis">Services</h1>
                 <h4 class="text-center">Découvrez nos offres de services</h4>
             </div>
 
-            <hr class="featurette-divider">
+            <hr class="featurette-divider mb-5">
 
-            <div class="row featurette">
+            <div class="row featurette mb-5">
                 <div class="col-md-7 order-md-2">
                     <h2 class="featurette-heading fw-normal lh-1">Conseil en IA</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laborum consequuntur
-                        quos expedita corrupti! Quibusdam distinctio sequi quod nemo quisquam necessitatibus fugit,
-                        porro eos iusto tempora est beatae, itaque similique.</p>
+                    <p class="lead">Notre équipe d'experts offre des services de conseil en IA pour aider les
+                        entreprises à comprendre les avantages de cette technologie émergente. Nous travaillons en
+                        étroite collaboration avec nos clients pour identifier les applications potentielles de l'IA
+                        dans leur secteur d'activité et développer des stratégies adaptées. Que ce soit pour optimiser
+                        les processus opérationnels, améliorer l'expérience client ou prendre des décisions plus
+                        éclairées, notre conseil en IA vous aidera à exploiter tout le potentiel de cette technologie
+                        révolutionnaire.</p>
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
-                            fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                    </svg>
+                    <img class="img-thumbnail bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                        width="500" height="500" src="Images/IA.png" alt="IA">
                 </div>
             </div>
-
-            <hr class="featurette-divider">
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">Développement de solutions d'IA</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam delectus omnis
-                        dolor ea odio architecto optio exercitationem eos nesciunt quasi corporis impedit iusto ab
-                        maxime quidem, ad aliquam, placeat laudantium?</p>
+                    <h2 class="featurette-heading fw-normal lh-1">Formation en IA</h2>
+                    <p class="lead">Notre entreprise propose également des services de formation en IA pour aider vos
+                        employés à acquérir les compétences nécessaires pour travailler avec cette technologie. Nous
+                        proposons des programmes de formation adaptés à tous les niveaux, des bases de l'IA aux
+                        techniques avancées d'apprentissage automatique. Grâce à notre formation en IA, vos employés
+                        pourront exploiter tout le potentiel de cette technologie et contribuer à la transformation
+                        numérique de votre entreprise.</p>
                 </div>
                 <div class="col-md-5">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
-                            fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                    </svg>
+                    <img class="img-thumbnail bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                        width="500" height="500" src="Images/Formation.png" alt="IA">
                 </div>
             </div>
 
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading fw-normal lh-1">Formation en IA</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laborum consequuntur
-                        quos expedita corrupti! Quibusdam distinctio sequi quod nemo quisquam necessitatibus fugit,
-                        porro eos iusto tempora est beatae, itaque similique.</p>
-                </div>
-                <div class="col-md-5 order-md-1">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
-                            fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                    </svg>
-                </div>
-            </div>
         </div>
     </div>
 
     <div class="p-5 text-center">
-        <button class="btn btn-success btn-lg" type="submit">Contact</button>
+        <a href="#contact" class="btn btn-success btn-lg" type="submit">Contact</a>
     </div>
 
 
     <div class="p-5 text-center" style="background-color: #c6e1d5;">
         <div class="container py-5">
             <h1 class=" text-center text-body-emphasis">Plans et tarification</h1>
-            <p class="fs-5 text-body-secondary">Choisissez le plan qui vous convient le mieux</p>
+            <p class="fs-5 text-body-secondary mb-5">Choisissez le plan qui vous convient le mieux</p>
 
             <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
                 <div class="col">
                     <div class="card mb-4 rounded-3 shadow-sm">
                         <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Free</h4>
+                            <h4 class="my-0 fw-normal">Startup</h4>
                         </div>
                         <div class="card-body">
-                            <h1 class="card-title pricing-card-title">$0<small
-                                    class="text-body-secondary fw-light">/mo</small></h1>
+                            <h1 class="card-title pricing-card-title">**$<small
+                                    class="text-body-secondary fw-light">/mois</small></h1>
                             <ul class="list-unstyled mt-3 mb-4">
-                                <li>10 users included</li>
-                                <li>2 GB of storage</li>
-                                <li>Email support</li>
-                                <li>Help center access</li>
+                                <li>Formation en IA</li>
+                                <li>Support technique</li>
+                                <li>Analyse de données</li>
                             </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Sign up for free</button>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Acheter la version
+                                Starter</button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card mb-4 rounded-3 shadow-sm">
                         <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Pro</h4>
+                            <h4 class="my-0 fw-normal">PME</h4>
                         </div>
                         <div class="card-body">
-                            <h1 class="card-title pricing-card-title">$15<small
-                                    class="text-body-secondary fw-light">/mo</small></h1>
+                            <h1 class="card-title pricing-card-title">**$<small
+                                    class="text-body-secondary fw-light">/mois</small></h1>
                             <ul class="list-unstyled mt-3 mb-4">
-                                <li>20 users included</li>
-                                <li>10 GB of storage</li>
-                                <li>Priority email support</li>
-                                <li>Help center access</li>
+                                <li>Développement de solutions</li>
+                                <li>Optimisation de processus</li>
+                                <li>Assistance à la mise en œuvre</li>
                             </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-success">Get started</button>
+                            <button type="button" class="w-100 btn btn-lg btn-success">Acheter la version Pro</button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card mb-4 rounded-3 shadow-sm border-success">
                         <div class="card-header py-3 text-bg-success border-success">
-                            <h4 class="my-0 fw-normal">Enterprise</h4>
+                            <h4 class="my-0 fw-normal">Grande Entreprise</h4>
                         </div>
                         <div class="card-body">
-                            <h1 class="card-title pricing-card-title">$29<small
-                                    class="text-body-secondary fw-light">/mo</small></h1>
+                            <h1 class="card-title pricing-card-title">*****$<small
+                                    class="text-body-secondary fw-light">/mois</small></h1>
                             <ul class="list-unstyled mt-3 mb-4">
-                                <li>30 users included</li>
-                                <li>15 GB of storage</li>
-                                <li>Phone and email support</li>
-                                <li>Help center access</li>
+                                <li>Formation avancée en IA</li>
+                                <li>Consultation stratégique</li>
+                                <li>Intégration des systèmes</li>
                             </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-success">Contact us</button>
+                            <button type="button" class="w-100 btn btn-lg btn-success">Acheter la version
+                                Entreprise</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div id="about" class="p-5">
+        <div class="container">
+            <div>
+                <h1 class=" text-center text-body-emphasis">À propos</h1>
+                <h4 class="text-center">Faites notre connaissance</h4>
+            </div>
+
+            <hr class="featurette-divider mb-5">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1">Notre entreprise</h2>
+                    <p class="lead">Notre idée, qui consiste à créer un bureau de conseil et de formation en IA, est une
+                        initiative louable qui répond à un réel besoin du marché. Notre bureau pourra aider les
+                        entreprises à comprendre les avantages de l'IA et identifier les applications potentielles pour
+                        leur activité. Nous offrons également des formations aux technologies d'IA pour aider leurs
+                        employés à se familiariser avec ces nouvelles avancées technologiques.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="img-thumbnail bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                        width="500" height="500" src="Images/IA.png" alt="IA">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="contact" class="p-5 mb-5" style="background-color: #c6e1d5;">
+        <div class="container py-5">
+            <h1 class="text-center text-body-emphasis">Contactez-nous</h1>
+            <p class="fs-5 text-body-secondary mb-5 text-center">Nous contacter</p>
+
+            <div class=" align-items-md-center">
+                <div class="bg-white border rounded shadow-sm overflow-hidden">
+                    <form action="#!">
+                        <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
+                            <div class="col-12">
+                                <label for="fullname" class="form-label">Nom <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="fullname" name="fullname" value="" required>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                        </svg>
+                                    </span>
+                                    <input type="email" class="form-control" id="email" name="email" value="" required>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="phone" class="form-label">Téléphone</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                        </svg>
+                                    </span>
+                                    <input type="tel" class="form-control" id="phone" name="phone" value="">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Message <span
+                                        class="text-danger">*</span></label>
+                                <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-grid">
+                                    <button class="btn btn-success btn-lg" type="submit">Envoyer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="bg-light py-3 py-md-5 mb-5">
+        <div class="container">
+            <div class="row gy-3 gy-md-4 gy-lg-0 align-items-md-center">
+                <div class="col-12 col-lg-6">
+                    <div class="row justify-content-xl-center">
+                        <div class="col-12 col-xl-11">
+                            <p class="lead fs-4 text-secondary mb-5">Inscrivez-vous pour être au fait des dernières
+                                mises à jour</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="bg-white border rounded shadow-sm overflow-hidden">
+
+                        <form action="#!">
+                            <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
+                                <div class="col">
+                                    <label for="email" class="form-label">Email <span
+                                            class="text-danger">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-text">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                            </svg>
+                                        </span>
+                                        <input type="email" class="form-control" id="email" name="email" value=""
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="d-grid">
+                                        <button class="btn btn-success btn-lg" type="submit">Envoyer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container text-center">
+        <ul class="row">
+            <div class="col nav-item ps-3 d-inline">
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+            </div>
+            <div class="col nav-item ps-3 d-inline">
+                <a href="#services" class="nav-link" href="#">Services</a>
+            </div>
+            <div class="col nav-item ps-3 d-inline">
+                <a href="#" class="nav-link" href="#">Blog</a>
+            </div>
+            <div class="col nav-item ps-3 d-inline">
+                <a href="#about" class="nav-link" href="#">About</a>
+            </div>
+        </ul>
     </div>
 
 
@@ -282,16 +388,15 @@
                     <img src="Images/Logo1.png" alt="" width="40">
                 </a>
                 <span class="mb-3 mb-md-0 text-body-secondary">
-                    <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">© 2024, AI 4 BUSINESS</font>
-                    </font>
+                    <span style="vertical-align: inherit;">
+                        <span style="vertical-align: inherit;">© 2024, AI 4 BUSINESS</span>
+                    </span>
                 </span>
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg"
-                            width="24" height="24" viewBox="0 0 24 24"
-                            style="fill: rgba(0, 0, 0, 0.71);transform: ;msFilter:;">
+                            width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 0.71);">
                             <path
                                 d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z">
                             </path>
@@ -300,7 +405,7 @@
                 <li class="ms-3">
                     <a class="text-body-secondary" href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            style="fill: rgba(0, 0, 0, 0.71);transform: ;msFilter:;">
+                            style="fill: rgba(0, 0, 0, 0.71);">
                             <path
                                 d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z">
                             </path>
@@ -313,7 +418,7 @@
                 </li>
                 <li class="ms-3"><a class="text-body-secondary" href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            style="fill: rgba(0, 0, 0, 0.71);transform: ;msFilter:;">
+                            style="fill: rgba(0, 0, 0, 0.71);">
                             <path
                                 d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z">
                             </path>
